@@ -1,4 +1,5 @@
 # jjazure-servicefabric-linuxcontainer
+This sample deploy simple linux container web application into Azure Service Fabric.
 
 ## Install ServiceFabric CLI
 ```powershell
@@ -23,3 +24,6 @@ or with this script
 ```
 sfctl application create --app-name fabric:/jjweb --app-type jjwebType --app-version 1.0.0
 ```
+
+## Test application
+Browser http://jjcluster.westeurope.cloudapp.azure.com
